@@ -1,0 +1,247 @@
+/*section1*/
+#content .content_area .sec1{
+    width: 1400px;
+    margin: 0 auto;
+}
+#content .content_area .sec1 .span1{
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    width: 240px;
+    background: rgba(237,147,30,.3);
+    color: rgba(237,147,30,.9);
+    padding: 8px;
+    border-radius: 10px;
+    gap: 10px;
+}
+#content .content_area .sec1 .span1::before{
+    content: "";
+    display: block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: rgba(237,147,30,.9);
+}
+#content .content_area .sec1 p{
+    font-size: 24px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+#content .content_area .sec1 .span2{
+    color: var(--color-font3);
+}
+#content .content_area .sec1 ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    gap: 30px;
+}
+#content .content_area .sec1 li{
+    width: 500px;
+    background: rgba(232,234,237,.5);
+    padding: 30px;
+    border-radius: 10px;
+    border-top: 3px solid var(--color-point3);
+    transition: all .5s ease-out;
+}
+#content .content_area .sec1 li:hover{
+    transform: translateY(-5%);
+}
+#content .content_area .sec1 li:nth-of-type(2){
+    border-top: 3px solid var(--color-point2);
+}
+#content .content_area .sec1 li:nth-of-type(3){
+    border-top: 3px solid var(--color-point1);
+}
+#content .content_area .sec1 li div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#content .content_area .sec1 li div .middle_span1{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 14px;
+    color: var(--color-font3);
+    font-weight: 600;
+}
+#content .content_area .sec1 li div .middle_span1::before{
+    content: "";
+    display: block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: var(--color-point3)
+}
+#content .content_area .sec1 li:nth-of-type(2) div .middle_span1::before{
+    background: var(--color-point2)
+}
+#content .content_area .sec1 li:nth-of-type(3) div .middle_span1::before{
+    background: var(--color-point1)
+}
+#content .content_area .sec1 li div .middle_span2{
+    background: rgba(255,255,255,.9);
+    padding: 5px;
+    width: 100px;
+    text-align: center;
+    border-radius: 10px;
+}
+#content .content_area .sec1 li strong{
+    font-size: var(--font-34-size);
+    font-weight: 500;
+}
+#content .content_area .sec1 li strong span{
+    font-size: 22px;
+    color: var(--color-font2);
+}
+#content .content_area .sec1 div:nth-of-type(2){
+    margin-top: 50px;
+}
+#content .content_area .sec1 li div .bottom_span1{
+    font-size: 14px;
+    color: var(--color-font2);
+}
+#content .content_area .sec1 li div .bottom_span2{
+    background: rgba(237,28,36,.3);
+    color: var(--color-point1);
+    display: flex;
+    border-radius: 5px;
+    padding: 5px;
+    gap: 3px;
+}
+#content .content_area .sec1 li:nth-of-type(2) div .bottom_span2{
+    background-color: rgba(65,187,183,.2);
+    color: var(--color-point2);
+}
+
+/*section2*/
+#content .content_area .sec2{
+    width: 1400px;
+    margin: 150px auto;
+}
+#content .content_area .sec2 h3{
+    font-weight: 600;
+    font-size: var(--font-40-size);
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+#content .content_area .sec2 h3::before{
+    content: "";
+    display: block;
+    width: 20px;
+    height: 20px;
+    background: var(--color-point3)
+}
+#content .content_area .sec2 .chart1{
+    width: 80%; 
+    margin: 50px auto;
+}
+#content .content_area .sec2 .mychart{
+    width: 1400px;
+    height: 50%;
+}
+
+#content .content_area .sec3{
+    width: 1400px;
+    margin: 0 auto;
+}
+#content .content_area .sec3 h3{
+    font-size: var(--font-40-size);
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+#content .content_area .sec3 h3::before{
+    content: "";
+    display: block;
+    width: 20px;
+    height: 20px;
+    background: var(--color-point2);
+}
+#content .content_area .sec3 table{
+    width: 1400px;
+    border: 1px solid rgba(232,234,237,.6);
+    border-top: 3px solid var(--color-point2);
+    margin: 50px 0;
+    background: rgba(232,234,237,.1);
+}
+#content .content_area .sec3 table td{
+    padding: 20px;
+    color: var(--color-font2);
+}
+#content .content_area .sec3 table td:nth-of-type(2),
+#content .content_area .sec3 table td:nth-of-type(3),
+#content .content_area .sec3 table td:nth-of-type(4),
+#content .content_area .sec3 table td:nth-of-type(5){
+    text-align: center;
+}
+#content .content_area .sec3 table td:nth-of-type(1){
+    color: var(--color-font1);
+    font-weight: 600;
+}
+#content .content_area .sec3 table th{
+    color: var(--color-font1);
+    font-weight: 600;
+}
+#content .content_area .sec3 table th{
+    background: rgba(232,234,237,.8);
+}
+#content .content_area .sec3 table tr:nth-of-type(2) td:nth-of-type(5),
+#content .content_area .sec3 table tr:nth-of-type(4) td:nth-of-type(5),
+#content .content_area .sec3 table tr:nth-of-type(5) td:nth-of-type(5){
+    color: var(--color-point2);
+}
+#content .content_area .sec3 table tr:nth-of-type(3) td:nth-of-type(5),
+#content .content_area .sec3 table tr:nth-of-type(6) td:nth-of-type(5),
+#content .content_area .sec3 table tr:nth-of-type(7) td:nth-of-type(5),
+#content .content_area .sec3 table tr:nth-of-type(8) td:nth-of-type(5){
+    color: var(--color-point1);
+}
+#content .content_area .sec4{
+    width: 1200px;
+    margin: 50px auto 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(232,234,237,.7);
+    padding: 40px;
+}
+#content .content_area .sec4 div span{
+    color: var(--color-point1);
+    font-weight: 600;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+#content .content_area .sec4 div h3{
+    font-size: 32px;
+    font-weight: 700;
+}
+#content .content_area .sec4 div p{
+    color: var(--color-font2);
+    margin: 10px 0;
+}
+#content .content_area .sec4 a{
+    background: rgba(255,255,255,.8);
+    color: var(--color-point1);
+    padding: 10px;
+    display: flex;
+    border-radius: 10px;
+    font-size: 14px;
+    margin: 0 20px;
+    transition: all .5s ease-out;
+}
+#content .content_area .sec4 a:hover{
+    background: var(--color-point1);
+    color: #fff;
+}
+
+
+
+
+
+
+
+

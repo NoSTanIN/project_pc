@@ -1,0 +1,150 @@
+{
+  "products": [
+    {
+       "category" : "합성고무" ,
+       "sname" : "SBR",
+       "img"   :  "./images/sub4/sub2_4_1.png" ,
+       "desc"   :  "Styrene Butadiene Rubber",
+       "detail" : "KUMHO SBR은 Styrene과 Butadiene을 저온 유화 중합하여 제조한 합성고무 제품입니다. SBR은 천연고무(NR)에 비해 품질이 균일하고 특히 내열성과 내마모성이 우수하며, 타이어, 신발, 산업용품 등의 재료로 널리 사용되고 있습니다."
+    },
+    {
+       "category" : "합성고무" ,
+       "sname" : "HBR",
+       "img"   :  "./images/sub4/sub2_4_2.png" ,
+       "desc"   :  "High-cis Polybutadiene Rubber",
+       "detail" : "KUMHO HBR은 1,3-butadiene을 용액중합하여 제조한 high-cis polybutadiene rubber(BR) 입니다. Cis 함량이 96% 이상으로, 내마모성, 반발탄성, 내노화성, 내수성이 우수하고 유리전이 온도(Tg)가 -100℃ 정도로 매우 낮아 SBR과 함께 가장 널리 사용되는 합성고무 제품입니다."
+    },
+    {
+       "category" : "합성고무" ,
+       "sname" : "LBR",
+       "img"   :  "./images/sub4/sub2_4_3.png" ,
+       "desc"   :  "Low-cis Polybutadiene Rubber",
+       "detail" : "KUMHO LBR은 리튬 촉매를 사용하여 제조한 low-cis polybutadiene rubber(BR) 입니다. Cis 함량은 34.5%이며, 탄성이 좋고 14.5% 정도의 vinyl 결합구조를 가지고 있어 반응성이 좋아 HIPS(High Impact Polystyrene) 제조시 base polymer로써 주로 사용되는 합성고무 제품입니다."
+    },
+    {
+       "category" : "합성고무" ,
+       "sname" : "SSBR",
+       "img"   :  "./images/sub4/sub2_4_4.png" ,
+       "desc"   :  "Solution Polymerized Styrene Butadiene Rubber",
+       "detail" : "KUMHO Solution SBR은 알킬 리튬 촉매를 이용하여 유기용매 중에서 스타이렌과 부타디엔을 용액 중합하여 제조되는 합성고무 제품입니다. 유화중합으로 생산되는 기존의 SBR에 비하여 점탄성 특성이 매우 우수하여 타이어 적용시 차량의 안전성과 연비특성 향상을 도모할 수 있습니다. 특히 당사제품에는 세계 최초롤 폴리 실록산이라는 친 실리카 화합물을 커플링제로 사용함으로써 실리카 타이어 적용시 타이어 물성에 매우 유리합니다."
+    },
+    {
+       "category" : "합성고무" ,
+       "sname" : "NdBR",
+       "img"   :  "./images/sub4/sub2_4_5.png" ,
+       "desc"   :  "Ultra High-cis Polybutadiene Rubber",
+       "detail" : "KUMHO NdBR은 네오디뮴 촉매를 사용하여 제조한 ultra high-cis polybutadiene rubber(BR) 입니다. Cis 함량이 97% 이상인 제품으로 내마모성, 반발탄성, 내발열 특성이 우수하여 타이어, 골프공, 신발, 호스, 벨트 제조에 주로 사용되는 합성고무 제품입니다."
+    },
+    {
+       "category" : "합성고무" ,
+       "sname" : "NBR",
+       "img"   :  "./images/sub4/sub2_4_6.png" ,
+       "desc"   :  "Acrylonitrile Butadiene Rubber",
+       "detail" : "KUMHO KNB는 아크릴로니트릴과 부타디엔을 저온 유화중합하여 만든 공중합체로서 내유성과 내약품성이 우수한 합성고무 제품입니다. 당사의 NBR 제품은 롤(Roll)권취성, 배합 분산성 및 압출성 등 작업성이 양호하고 가황 특성이 적절하여 가공이 용이합니다. 용도로는 내유성이 요구되는 팩킹, 가스켓, 호스, 롤, 신발, 가전제품 부품 등에 사용됩니다."
+    },
+    {
+       "category" : "합성고무" ,
+       "sname" : "HSR",
+       "img"   :  "./images/sub4/sub2_4_7.png" ,
+       "desc"   :  "High Styrene Resin Masterbatch",
+       "detail" : "KUMHO KHS는 Styrene 함량 23.5%인 라텍스에 high styrene resin latex를 혼합하여 생산한 제품으로서 고무배합시 고온에서 가소제로 작용하여 가공성을 향상시킵니다. 또한 내마모성, 인열저항 내굴곡특성이 우수하고 다량의 충진제를 첨가하여도 좋은 물성을 유지할 수 있습니다."
+    },
+    {
+       "category" : "합성고무" ,
+       "sname" : "Latex",
+       "img"   :  "./images/sub4/sub2_4_8.png" ,
+       "desc"   :  "Latex",
+       "detail" : "스타이렌-부타디엔 라텍스(Styrene Butadiene Latex) 및 카르복시 변성 스타이렌-부타디엔 라텍스 (Carboxyl 변성 Styrene Butadiene Latex)입니다."
+    },
+    {
+       "category" : "합성고무" ,
+       "sname" : "SBS",
+       "img"   :  "./images/sub4/sub2_4_9.png" ,
+       "desc"   :  "Styrene Butadiene Styrene",
+       "detail" : "KUMHO KTR은 styrene과 butadiene을 유기용매 내에서 중합한 스타이렌-부타디엔-스타이렌 블록 공중합체(SBS) 제품입니다. SBS는 분자 구조상 가황 공정 없이도 고탄성이면서 변형 회복성이 우수한 열가소성 탄성체(thermoplastic elastomer)입니다. 당사 자체 기술로 개발하여 IR52 장영실상을 수상한 제품으로서, 아스팔트 개질제, 점·접착제, 플라스틱 개질제, 신발류 등의 재료로 널리 사용되고 있습니다."
+    },
+    {
+       "category" : "합성고무" ,
+       "sname" : "STE",
+       "img"   :  "./images/sub4/sub2_4_10.png" ,
+       "desc"   :  "Styrenic Thermoplastic Elastomer Compound",
+       "detail" : "STE 제품은 스타이렌계열의 블럭공중합체인 SBS 또는 SEBS와 열변형이 가능한 수지로 컴파운딩 되어있는 제품 입니다. STE 제품은 고무적 물성이 요구되는 제품들에 적용이 가능한 소재이며 압출, 사출을 통하여 쉽고 빠른 변형과 생산이 가능하게 합니다."
+    },
+    {
+       "category" : "합성고무" ,
+       "sname" : "LEADCAP",
+       "img"   :  "./images/sub4/sub2_4_11.png" ,
+       "desc"   :  "LEADCAP",
+       "detail" : "아스콘 생산 시 LEADCAP을 아스팔트에 1.5% ~ 3.0%만 섞어줌으로써 생산 온도를 30도 낮출 수 있습니다. 이를 통해 아스콘 생산 에너지를 절약하고 유해가스 배출을 억제하는 한편 도로 개통 시간이 빨라지는, 친환경적 아스콘 첨가제입니다. 아울러 더 낮은 온도에서 다짐이 가능하기 때문에 온도 불균일에 의한 다짐 불량을 사전에 예방할 수 있습니다."
+    },
+
+
+
+    {
+       "category" : "합성수지" ,
+       "sname" : "GPPS",
+       "img"   :  "./images/sub4/sub2_4_12.png" ,
+       "desc"   :  "General Purpose Polystyrene",
+       "detail" : "강도가 높고 성형 가공성이 우수하여 가전제품, 구조부품, 일상잡화에 사용되는 범용 수지입니다."
+    },
+    {
+       "category" : "합성수지" ,
+       "sname" : "HIPS",
+       "img"   :  "./images/sub4/sub2_4_13.png" ,
+       "desc"   :  "High Impact Polystyrene",
+       "detail" : "PS와 고무를 접목시켜 충격강도 및 성형가공성이 우수 가전제품, 구조부품, 일상잡화에 사용되는 범용 수지입니다."
+    },
+    {
+       "category" : "합성수지" ,
+       "sname" : "ABS",
+       "img"   :  "./images/sub4/sub2_4_14.png" ,
+       "desc"   :  "Acrylonitrile Butadiene Styrene",
+       "detail" : "최종 성형품의 치수 안정성과 표면 광택이 우수하고, 자동차 및 가전제품, 일상잡화 등 수요처가 다양한 대표적인 수지 제품입니다."
+    },
+    {
+       "category" : "합성수지" ,
+       "sname" : "EP",
+       "img"   :  "./images/sub4/sub2_4_15.png" ,
+       "desc"   :  "Engineering Plastics",
+       "detail" : "범용 플라스틱 대비 금속류나 열경화성 수지의 대체로 사용되며, 성형 가공성 우수하여 자동차 부품 및 정밀기계 분야 등 다양한 분야에 적용되는 수지 제품입니다."
+    },
+    {
+       "category" : "합성수지" ,
+       "sname" : "EPS",
+       "img"   :  "./images/sub4/sub2_4_16.png" ,
+       "desc"   :  "Expandable Polystyrene",
+       "detail" : "폴리스티렌(PS) 수지에 발포제를 함침시킨 발포성 수지로, 제품내 잔류 휘발물질이 적은 친환경 제품입니다. EPS는 용도에 따라 포장용(일반용), 건축용(자기소화, 단열강화용), 특수용으로 구분되고 있습니다."
+    },
+    {
+       "category" : "합성수지" ,
+       "sname" : "ENERPOR",
+       "img"   :  "./images/sub4/sub2_4_17.png" ,
+       "desc"   :  "ENERPOR",
+       "detail" : "종래의 발포폴리스티렌에 결정구조상 복사열 흡수 개념을 도입하여 혁신적으로 단열 성능을 향상시킴으로써 고유가 시대에 에너지 절약과 환경 보호에 부합되는 신개념의 단열재 원료입니다."
+    },
+    {
+       "category" : "합성수지" ,
+       "sname" : "PPG",
+       "img"   :  "./images/sub4/sub2_4_18.png" ,
+       "desc"   :  "Polypropylene Glycol",
+       "detail" : "연질용 폴리올을 사용한 폴리 우레탄 폼은 Open Cell구조로 통기성이 아주 뛰어나며, 배합처방에 따라 넓은 밀도와 다양한 물성을 조절할 수 있어 가구, 의자, 신발 및 자동차 분야 등의 큐션재로 널리 활용됩니다. 경질용 폴리올을 사용한 폴리 우레탄 폼은 독립 기포 구조와 사용하는 발포제의 낮은 열전도율로 인해 단열 성능이 뛰어나 냉장고, 판넬, 냉동 콘테이너, LNG 보냉재 등에 널리 사용되고 있습니다.Non-Foam용 폴리올은 코팅, 접착제, 실란트, 엘라스토머 등 사용처가 다양하며 용도에 따른 특성과 물성을 가질 수 있습니다."
+    },
+    {
+       "category" : "합성수지" ,
+       "sname" : "SAN",
+       "img"   :  "./images/sub4/sub2_4_19.png" ,
+       "desc"   :  "Styrene Acrylonitrile",
+       "detail" : "성형품의 투명성과 고강성, 내약품성에 적합한 수지 제품으로서 전기전자 제품, 일상잡화, ABS 및 각종 컴파운딩 등에 적용함니다."
+    },
+
+
+
+    {
+       "category" : "나노탄소" ,
+       "sname" : "탄소나노튜브",
+       "img"   :  "./images/sub4/sub2_4_20.png" ,
+       "desc"   :  "Carbon Nanotube",
+       "detail" : "1991년 일본 IIJIMA교수가 전기방전법을 사용하여 흑연의 음극상에 형성시킨 탄소덩어리를 분석하는 과정에서 발견한 신소재입니다. K-Nanos Series는 고분자 기지 및 용액 내에 분산성이 우수하며,고밀도화 제품의 경우 비산 감소를 통한 생산환경 개선 및 품질 안정성이 우수합니다."
+    }
+  ]
+}

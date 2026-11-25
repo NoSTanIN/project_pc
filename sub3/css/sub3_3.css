@@ -1,0 +1,176 @@
+#content .content_area .sec1{
+    width: 1400px;
+    margin: 0 auto;
+}
+#content .content_area .sec1 h3{
+    text-align: center;
+    font-size: var(--font-h3-size);
+}
+#content .content_area .sec1 > p{
+    font-size: 20px;
+    text-align: center;
+    margin: 20px 0 50px;
+}
+#content .content_area .sec1 > div{
+    display: flex;
+}
+#content .content_area .sec1 > div section{
+    margin: 20px;
+    border-radius: 10px;
+    transition: all .5s ease-out;
+}
+#content .content_area .sec1 > div section:hover{
+    transform: translateY(-5px);
+    border: 1px solid var(--color-point1);
+}
+#content .content_area .sec1 > div .sec1_1{
+    width: 600px;
+    background: rgba(248,249,250,.3);
+    box-shadow: 1px 1px 10px 1px rgba(0,0,0,.1);
+    padding: 30px;
+}
+#content .content_area .sec1 > div .sec1_1 h4{
+    font-size: var(--font-18-size);
+    margin-bottom: 10px;
+}
+#content .content_area .sec1 > div .sec1_1 h4 span{
+    width: 150px;
+    font-size: 14px;
+    padding: 5px;
+    text-align: center;
+    background: rgba(232,234,237,.7);
+    border-radius: 10px;
+    display: block;
+    margin-bottom: 15px;
+}
+#content .content_area .sec1 > div .sec1_1 p{
+    width: 550px;
+    margin-bottom: 10px;
+}
+#content .content_area .sec1 > div .sec1_1 ul {
+    display: flex;
+    width: 600px;
+    background: rgba(232,234,237,.7);
+    margin: 40px auto 0;
+}
+#content .content_area .sec1 > div .sec1_1 ul li{
+    margin: 0 auto;
+    padding: 10px;
+}
+#content .content_area .sec1 > div .sec1_1 ul li span{
+    display: block;
+}
+#content .content_area .sec1 > div .sec1_1 ul li strong{
+    font-size: var(--font-24-size);
+}
+#content .content_area .sec1 > div .sec1_2{
+    width: 500px;
+    padding: 30px;
+    background: rgba(248,249,250,.3);
+    box-shadow: var(--box-shadow1);
+}
+#content .content_area .sec1 > div .sec1_2 h4{
+    font-size: var(--font-24-size);
+    margin: 10px;
+}
+#content .content_area .sec1 > div .sec1_2 h4 span{
+    font-size: 14px;
+    display: block;
+    background: rgba(237,147,30,.2);
+    width: 150px;
+    margin-bottom: 10px;
+    text-align: center;
+    padding: 5px;
+    color: rgba(237,147,30,.7);
+    border-radius: 5px;
+}
+#content .content_area .sec1 > div .sec1_2 p{
+    margin: 10px;
+    font-size: 14px;
+}
+#content .content_area .sec1 > div .sec1_2 li{
+    display: flex;
+    background: rgba(255,255,255);
+    margin: 10px;
+}
+#content .content_area .sec1 > div .sec1_2 li span{
+    background: rgba(232,234,237,.7);
+    margin: 10px;
+    color: var(--color-point2);
+    padding: 10px;
+    height: 27px;
+}
+#content .content_area .sec1 > div .sec1_2 li dt{
+    font-weight: bold;
+    margin: 5px;
+}
+#content .content_area .sec1 > div .sec1_2 li dd{
+    margin: 0 0 10px 5px;
+}
+#content .content_area .sec1 > div .sec1_2 p:nth-of-type(2){
+    font-size: 14px;
+    margin: 20px;
+    display: flex;
+    gap: 10px;
+}
+
+
+#content .content_area .sec2{
+    width: 1400px;
+    margin: 200px auto;
+    position: relative;
+}
+#content .content_area .sec2 h3{
+    font-size: var(--font-h3-size);
+    text-align: center;
+}
+#content .content_area .sec2 h3 span{
+    display: block;
+    font-size: 16px;
+    color: var(--color-point3);
+}
+#content .content_area .sec2 p{
+    font-size: 20px;
+    text-align: center;
+    margin: 20px 0 50px;
+}
+
+#content .content_area .sec2 ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+#content .content_area .sec2 ul li{
+    background: rgba(232,234,237,.5);
+    padding: 20px;
+    width: 300px;
+    transition: all .5s ease-out;
+    border: 1px solid #fff;
+    border-radius: 10px;
+}
+#content .content_area .sec2 ul li:hover{
+    transform: translateY(-5px);
+    border: 1px solid var(--color-point2);
+}
+#content .content_area .sec2 ul li .material-symbols-outlined{
+    background: rgba(255,255,255);
+    padding: 10px;
+    color: var(--color-point2);
+    border-radius: 10px;
+}
+#content .content_area .sec2 li dl dt{
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 30px;
+}
+#content .content_area .sec2 li dl dt span{
+    display: block;
+    margin-top: 20px;
+    color: var(--color-font2);
+    font-size: 14px;
+    font-weight: 500;
+}
+#content .content_area .sec2 li dl dd{
+    margin: 10px 0;
+}

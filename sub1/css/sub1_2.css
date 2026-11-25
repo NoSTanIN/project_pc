@@ -1,0 +1,98 @@
+#content .content_area p{
+    font-size: var(--font-h3-size);
+    font-weight: 600;
+    text-align: center;
+    margin: 30px;
+}
+#content .content_area p:nth-of-type(2){
+    font-size: var(--font-24-size);
+    font-weight: 400;
+    color: var(--color-font3);
+    margin-bottom: 100px;
+}
+#content .content_area section:nth-of-type(1) ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin: 30px;
+}
+#content .content_area section li{
+    border: 1px solid #ccc;
+    padding: 30px;
+}
+#content .content_area section h3{
+    font-size: var(--font-40-size);
+    text-align: center;
+    position: relative;
+}
+#content .content_area section h3::after{
+    content: "";
+    display: block;
+    width: 100px;
+    height: 5px;
+    border-radius: 10px;
+    background-color: var(--color-point2);
+    margin: 0 auto;
+    margin-bottom: 100px;
+}
+#content .content_area section h3 span{
+    display: block;
+    font-size: var(--font-24-size);
+    color: var(--color-font3);
+    margin-bottom: 30px;
+    
+}
+#content .content_area section li .svg-inline--fa{
+    background: var(--color-point1);
+    border-radius: 10px;
+    padding: 20px;
+    color: #fff;
+    font-size: 40px;
+    display: block;
+    margin: 20px auto;
+}
+#content .content_area section:nth-of-type(1) li dl{text-align: center; margin-bottom: 30px;}
+#content .content_area section:nth-of-type(1) li dl dt{
+    font-size: 24px;
+    margin: 10px;
+    font-weight: 500;
+}
+#content .content_area section:nth-of-type(1) li dl dd{color: var(--color-font3);}
+
+#content .content_area section:nth-of-type(2) {
+    margin-top: 150px;
+    margin-bottom: 200px;
+}
+#content .content_area section:nth-of-type(2) li{
+    width: 1100px;
+    margin: 0 auto 20px auto; 
+    border: 1px solid #ccc;
+    background-color: #fff;
+    border-radius: 2px;
+    padding: 0;
+    border-left: 5px solid var(--color-point2);
+}
+
+/* 카드 내부를 좌우로 나눔 (Flex) */
+#content .content_area section:nth-of-type(2) li dl{
+    display: flex;
+    align-items: center;
+}
+
+/* 왼쪽 파란색 박스 영역 */
+#content .content_area section:nth-of-type(2) li dt{
+    width: 300px;
+    padding: 30px;
+    background: #f0f7ff; /* 연한 하늘색 배경 (원하시면 #03afff로 변경 가능) */
+    font-size: 24px;
+    font-weight: 600;
+}
+#content .content_area section:nth-of-type(2) li dt span{
+    display: block;
+    font-size: var(--font-18-size);
+    color: var(--color-point2);
+}
+#content .content_area section:nth-of-type(2) li dd{
+    padding: 20px;
+}

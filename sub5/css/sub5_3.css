@@ -1,0 +1,156 @@
+#content .content_area section{
+    width: 1400px;
+    margin: 0 auto 150px;
+}
+#content .content_area .sec5{
+    margin-bottom: 200px;
+}
+#content .content_area section h3{
+    font-size: var(--font-34-size);
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+#content .content_area section h3::before{
+    content: "";
+    width: 5px;
+    height: 35px;
+    background: red;
+    display: block;
+    border-radius: 50px;
+}
+#content .content_area section dt{
+    border-top: 1px solid #ccc;
+    padding: 18px;
+    display: flex;
+    align-items: center ;
+    justify-content: space-between;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1.5;
+}
+#content .content_area section dl:nth-of-type(1) dt{
+    border-top: 1px solid #000;
+}
+#content .content_area .sec1 dl:nth-of-type(5) dt{
+    border-bottom: 1px solid #000;
+}
+#content .content_area .sec2 dl:nth-of-type(3) dt{
+    border-bottom: 1px solid #000;
+}
+#content .content_area .sec3 dl:nth-of-type(2) dt{
+    border-bottom: 1px solid #000;
+}
+#content .content_area .sec4 dl:nth-of-type(8) dt{
+    border-bottom: 1px solid #000;
+}
+#content .content_area .sec5 dl:nth-of-type(4) dt{
+    border-bottom: 1px solid #000;
+}
+#content .content_area section dd{
+    border-top: 1px solid #ccc;
+    overflow: hidden;
+    display: none;
+    padding: 30px;
+}
+.faq .q{border-top:1px solid #ddd; position: relative;}  
+.faq .q .trigger{padding:10px 15px;background:#fafafa;color:#333;text-align:left;}  
+.faq .hide .q .trigger{font-weight:normal;background:none}  
+.faq .q .trigger:hover,  
+.faq .q .trigger:active,  
+.faq .q .trigger:focus{background:#feeddd;color:#000} 
+.faq .q span{display: block; position: absolute; right: 15px; top:10px} 
+.faq .a{padding:10px 15px;line-height:1.5;
+    padding-bottom:10px; margin-top:0px; margin-bottom:0px; 
+    padding-top:10px; display: none;} 
+
+.contact {
+    width: 1400px; /* FAQ 리스트와 동일한 1400px 꽉 찬 너비 적용 */
+    margin: 100px auto 200px; 
+    background: #f8f9fa; /* 은은한 연회색 배경으로 영역 구분 */
+    border: 1px solid #e5e5e5;
+    padding: 60px 80px;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+/* 타이틀 디자인 (FAQ와 통일감 부여) */
+.contact h3 {
+    font-size: var(--font-34-size, 34px); 
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 40px;
+}
+.contact h3::before {
+    content: "";
+    width: 5px;
+    height: 35px;
+    background: red;
+    display: block;
+    border-radius: 50px;
+}
+
+/* 폼 좌우 2단 배치 */
+.contact .form_wrap {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px; /* 좌측과 우측 사이 간격 */
+}
+.contact .left_box, 
+.contact .right_box {
+    width: 50%;
+}
+.contact .left_box div {
+    margin-bottom: 25px; /* input 사이 간격 */
+}
+.contact label {
+    font-size: 18px; 
+    font-weight: 600;
+    display: block; 
+    margin-bottom: 10px;
+    color: #333;
+}
+
+/* 입력창 공통 디자인 */
+.contact input, 
+.contact textarea {
+    width: 100%; 
+    padding: 15px 20px; 
+    font-size: 16px;
+    border: 1px solid #ccc; 
+    background: #fff; 
+    color: #333;
+    border-radius: 5px;
+    box-sizing: border-box;
+    transition: all 0.5s ease-out;
+}
+.contact textarea {
+    height: 270px; /* 좌측 input 3개의 전체 높이와 비율을 맞춤 */
+}
+
+/* 입력창 클릭(포커스) 시 금호석유화학 포인트 컬러 적용 */
+.contact input:focus, 
+.contact textarea:focus {
+    box-shadow: 0 0 5px rgba(237,28,36,.5);
+}     
+
+/* 100% 꽉 차는 묵직한 전송 버튼 */
+.contact button {
+    width: 100%;
+    padding: 20px;
+    background: var(--color-point1); /* 강렬한 레드 색상 */
+    color: #fff; 
+    font-size: 20px; 
+    font-weight: bold;
+    border-radius: 5px;
+    border: none; 
+    margin-top: 30px;
+    display: block; 
+    cursor: pointer;
+    transition: background 0.3s;
+}
+.contact button:hover {
+    background: var(--color-point1); /* 마우스 오버 시 살짝 어두워짐 */
+}

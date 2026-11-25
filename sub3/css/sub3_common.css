@@ -1,0 +1,87 @@
+/* 회사소개 depth의 공통 영역 */
+
+/* 서브 비주얼영역 */
+.visual {
+    width: 100%;
+    height: 320px;
+    position: relative;
+    background: url(../images/common/sub_visual.png) no-repeat center 60%; /* center 뒤의 숫자를 조절하여 원하는 위치를 잡을 수 있습니다 */
+    background-size: cover; /* 이미지가 비율을 유지하며 찌그러지지 않고 영역을 채움 */
+}
+
+.visual strong {
+    width: 100%;
+    display: block;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+    color: #fff;
+    font-size: 2.3rem;
+    font-weight: normal;
+}
+
+/* 서브메뉴영역 */
+
+.sub_nav{
+    width: 100%;
+    border-bottom: 1px solid #ccc;
+}
+.sub_nav ul{
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+}
+.sub_nav ul li{
+    width: 35%;
+    text-align: center;
+}
+.sub_nav ul li a{
+    font-size: var(--font-gnb-size);
+    font-weight: 600;
+    color: var(--color-font1);
+    padding: 15px 0;
+    transition: all .5s ease-out;
+}
+.sub_nav ul li:hover a,
+.sub_nav ul li .active{
+    background: var(--color-point1);
+    color: #fff;
+    font-weight: 700;
+}
+
+/* 본문-타이틀영역 */
+#content{width: 100%;}
+#content .title_area{
+    width: 1400px;
+    margin: 0 auto;
+    padding: 100px 0;
+    position: relative;
+}
+#content .title_area .line_map{
+    position: absolute;
+    right: 0;
+    top: 40px;
+    font-size: var(--font-16-size);
+}
+#content .title_area h2{
+    text-align: center;
+    font-size: var(--font-h2-size);
+    margin-bottom: 30px;
+}
+#content .title_area h2 span{
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-size: 1.3rem;
+    display: block;
+    color: var(--color-point1);
+    text-align: center;
+}
+#content .title_area p{
+    font-size: 1.5rem;
+    text-align: center;
+}
+#content .content_area{
+    width: 100%;
+}
